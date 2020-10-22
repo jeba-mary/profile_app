@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CompanyProfile</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<script src="validate.js"></script>
+	<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row">
+		<!-- LEFT CONTAINER -->
+
+			<div class="col-sm-6">
+				<div class="left-container">
+					<div class="main">
+						<div class="row top-image">
+							<img src="./images/blob-shape (-1@2x.png" height = 70 width = 70 class="top" />
+						</div>
+						<div class="main-logo">
+							<img src='./images/Group 5076@2x.png' alt="Simply Easy Learning" class="logo">
+						</div>
+						<div class="content">
+							<h4 style="line-height: 200%"><span style="color: #15c39a;">Your data</span> will be securely stored<br/> In our cloud and will be accessed<br/> only by you</h4>
+							<div class="text-right"><img src="./images/Group 5071@2x.png" style="margin-right: 30px;"/></div>
+						</div>
+						<div class="row bottom-image">
+							<img src="./images/blob-shape (-1@2x.png" height = 70 width = 70 class="bottom" />
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- RIGHT CONTAINER -->
+
+			<div class="col-sm-6">
+				<h4 class="title">My<b style="color: #15c39a;">Company</b></h4>
+				<div class="form-container">
+				<!-- LOGIN FORM -->
+					<form name="login">
+					  <div class="form-group">
+					    <label for="email">Email</label>
+					    <input type="email" class="form-control" id="email" onKeyup="validateform()">
+					  </div>
+					  <div class="form-group">
+					    <label for="pwd">Password</label>
+					    <input type="password" class="form-control" id="pwd" onKeyup="validateform()">
+					  </div>
+					  <div class="form-group">
+					  	<p class="terms">By signing up for my course prep, you agree to our Terms of use and Private Policy</p>
+	  				  <div class="text-center">
+	  				  	<input type="submit" id="submitbutton" class="btn" disabled="disabled" value="Sign Up" />
+	  				  </div>
+	  				</div>
+					</form>
+
+					<p class="other-line"><span>Or</span></p>
+					<!-- OTHER LOGIN SERVICES -->
+					<div class="others text-center">
+						<h6>Sign Up with</h6>
+						<div class="services">
+							<img src='./images/Group 5108@2x.png' alt="google" class="google" />
+							<img src='./images/Group 5107@2x.png' alt="facebook" class="facebook" />
+						</div>
+						<p class="newlogin">Already have an account?<b style="color: #15c39a">Login</b></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

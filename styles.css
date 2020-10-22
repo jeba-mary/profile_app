@@ -1,0 +1,83 @@
+.container-fluid {
+	margin-top: 20px;
+}
+
+.left-container {
+  border-radius: 25px;
+  background: white;
+  padding: 20px;  
+}
+.main-logo {
+	margin-top: 20px;
+}
+
+.logo {
+	width: 40%
+}
+
+.content {
+	margin-top: 20px;
+}
+
+.title {
+	text-align: center;
+}
+
+.form-container {
+	margin-top: 30px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.btn {
+	background: #15c39a;
+	color: white;
+	font-weight: 800;
+	width: 50%;
+	cursor: pointer;
+}
+
+.terms {
+	margin-top: 30px;
+	color: grey;
+}
+
+.top-image {
+	    overflow: auto;
+
+}
+
+.top {
+	width: 70px;
+    height: 50px;
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+
+.other-line {
+  height: 15px;
+  width:100%;
+  border-bottom: dashed 2px lightgrey;
+  text-align: center;
+  margin: 2em 0;
+}
+.other-line span {
+  background: lightgrey;
+  position: relative;
+  top: 0;
+  padding: 0 30px;
+  line-height:30px;
+  border-radius:50%; 
+  border:solid lightgrey 1px;
+  padding:5px;
+  color: white;
+}
+.services {
+	display: inline-block;
+  	margin: 50px 50px;
+}
+
+.newlogin {
+	margin-top: 20px;
+}
